@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MDIR="/usr/local/mysql"
-PWSD_MYSQL="kjkj1234"
+PWSD_MYSQL="lamplamp"
 MDATA="/home/MYSQL"
 
 chown mysql.mysql $MDATA -R
