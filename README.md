@@ -1,7 +1,7 @@
 Docker LAMP:
-Apache: 2.4.3
-MYSQL: 5.0
-PHP: 5.2
++ Apache: 2.4.3
++ MYSQL: 5.0
++ PHP: 5.2
 
 
 #RUN DOCKER:
