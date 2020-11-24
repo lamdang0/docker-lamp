@@ -4,7 +4,8 @@ MYSQL: 5.0
 PHP: 5.2
 
 
-#RUN DOCKER
+#RUN DOCKER:
+
 docker run -itd -h lampd -p 80:80 -p 3306:3306 \
 -v ${PWD}/data/conf_apache2:/usr/local/apache2/ \
 -v ${PWD}/data/conf_php:/usr/local/php/ \
@@ -25,4 +26,5 @@ Check status:
 docker exec lampd /status.sh
 
 Enter bash:
+
  docker exec -it lampd bash
