@@ -6,6 +6,7 @@ Docker LAMP:
 
 #RUN DOCKER:
 
+```
 docker run -itd -h lampd -p 80:80 -p 3306:3306 \
                 -v ${PWD}/data/conf_apache2:/usr/local/apache2/ \
                 -v ${PWD}/data/conf_php:/usr/local/php/ \
@@ -15,6 +16,7 @@ docker run -itd -h lampd -p 80:80 -p 3306:3306 \
                 -v ${PWD}/data/log_apache2:/usr/local/apache2/logs \
                 -v ${PWD}/data/log_mysql:/home/MYSQL/log \
                 --name lampd lampd
+```
 
 ================================
 
@@ -24,8 +26,8 @@ default password mysql: lamplamp
 
 Check status:
 
-docker exec lampd /status.sh
+```docker exec lampd /status.sh```
 
 Enter bash:
 
- docker exec -it lampd bash
+``` docker exec -it lampd bash```
