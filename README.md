@@ -21,6 +21,7 @@ docker run -itd -h lampd -p 80:80 -p 3306:3306 \
 default password mysql: lamplamp
 
 ================================
+
 Check status:
 
 docker exec lampd /status.sh
